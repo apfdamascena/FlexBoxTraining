@@ -1,8 +1,9 @@
-#buttonComponent{
+.buttonComponent{
     width : 200px;
     border-radius:  50px;
-    background-color: yellow;
+    background-color: #F9C202;
     outline : none;
     padding : 12px;
     font-size: 18px;
 }
+

@@ -1,15 +1,7 @@
 body {
-  background-color:pink;
+  background-color: #e5e5e5;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-
-#alex{
-  position: relative;
-  top: 200px;
+html {
+  width: 100%;
 }

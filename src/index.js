@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Components/Home/Home';
-import Button from './Components/Button/Button';
+import StaticView from './Components/StaticView/StaticView';
+import HorizontalGrid from './Components/HorizontalGrid/HorizontalGrid';
+import dog from './Images/ColdDog.png';
 
 class App extends Component{
   render(){
     return(
       <div className = "container">
-        <h2>oi meu nome é alex</h2>
-        <Home name="dasjdlkasdjlasjdklasjdlk" nomePai="penelope"/>
-        <div id="alex">
-          <Button id ="alex1"nome="Adicionar"/>
-          <Button id="alex" nome = "Menu"/>
+        <StaticView/>
+        <div id="cardapio">
+          <HorizontalGrid image = {dog} name="Hot Classico" info="coma algo que voce nunca comeu. Ree eh" price = "R$ 200,00"/>
         </div>
       </div>
     );
