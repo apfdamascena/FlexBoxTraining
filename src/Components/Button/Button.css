@@ -1,0 +1,8 @@
+#buttonComponent{
+    width : 200px;
+    border-radius:  50px;
+    background-color: yellow;
+    outline : none;
+    padding : 12px;
+    font-size: 18px;
+}
